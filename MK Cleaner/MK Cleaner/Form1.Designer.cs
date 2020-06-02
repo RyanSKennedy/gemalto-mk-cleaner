@@ -77,10 +77,9 @@
             this.P_Main.Controls.Add(this.L_Logs);
             this.P_Main.Controls.Add(this.TB_Logs);
             this.P_Main.Controls.Add(this.P_Bottom);
-            this.P_Main.Location = new System.Drawing.Point(0, 144);
-            this.P_Main.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.P_Main.Location = new System.Drawing.Point(0, 75);
             this.P_Main.Name = "P_Main";
-            this.P_Main.Size = new System.Drawing.Size(980, 558);
+            this.P_Main.Size = new System.Drawing.Size(490, 290);
             this.P_Main.TabIndex = 1;
             // 
             // P_CustomSettings
@@ -94,51 +93,47 @@
             this.P_CustomSettings.Controls.Add(this.L_HLNetworkLicense);
             this.P_CustomSettings.Controls.Add(this.L_SLNetworkLicense);
             this.P_CustomSettings.Controls.Add(this.L_LocalLicense);
-            this.P_CustomSettings.Location = new System.Drawing.Point(578, 38);
-            this.P_CustomSettings.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.P_CustomSettings.Location = new System.Drawing.Point(289, 20);
             this.P_CustomSettings.Name = "P_CustomSettings";
-            this.P_CustomSettings.Size = new System.Drawing.Size(364, 190);
+            this.P_CustomSettings.Size = new System.Drawing.Size(183, 100);
             this.P_CustomSettings.TabIndex = 8;
             // 
             // NUpD_HLNetworkLicense
             // 
-            this.NUpD_HLNetworkLicense.Location = new System.Drawing.Point(222, 106);
-            this.NUpD_HLNetworkLicense.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.NUpD_HLNetworkLicense.Location = new System.Drawing.Point(111, 55);
             this.NUpD_HLNetworkLicense.Maximum = new decimal(new int[] {
             999999,
             0,
             0,
             0});
             this.NUpD_HLNetworkLicense.Name = "NUpD_HLNetworkLicense";
-            this.NUpD_HLNetworkLicense.Size = new System.Drawing.Size(120, 31);
+            this.NUpD_HLNetworkLicense.Size = new System.Drawing.Size(60, 20);
             this.NUpD_HLNetworkLicense.TabIndex = 6;
             this.NUpD_HLNetworkLicense.ValueChanged += new System.EventHandler(this.NUpD_HLNetworkLicense_ValueChanged);
             // 
             // NUpD_SLNetworkLicense
             // 
-            this.NUpD_SLNetworkLicense.Location = new System.Drawing.Point(222, 56);
-            this.NUpD_SLNetworkLicense.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.NUpD_SLNetworkLicense.Location = new System.Drawing.Point(111, 29);
             this.NUpD_SLNetworkLicense.Maximum = new decimal(new int[] {
             999999,
             0,
             0,
             0});
             this.NUpD_SLNetworkLicense.Name = "NUpD_SLNetworkLicense";
-            this.NUpD_SLNetworkLicense.Size = new System.Drawing.Size(120, 31);
+            this.NUpD_SLNetworkLicense.Size = new System.Drawing.Size(60, 20);
             this.NUpD_SLNetworkLicense.TabIndex = 5;
             this.NUpD_SLNetworkLicense.ValueChanged += new System.EventHandler(this.NUpD_SLNetworkLicense_ValueChanged);
             // 
             // NUpD_LocalLicense
             // 
-            this.NUpD_LocalLicense.Location = new System.Drawing.Point(222, 6);
-            this.NUpD_LocalLicense.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.NUpD_LocalLicense.Location = new System.Drawing.Point(111, 3);
             this.NUpD_LocalLicense.Maximum = new decimal(new int[] {
             999999,
             0,
             0,
             0});
             this.NUpD_LocalLicense.Name = "NUpD_LocalLicense";
-            this.NUpD_LocalLicense.Size = new System.Drawing.Size(120, 31);
+            this.NUpD_LocalLicense.Size = new System.Drawing.Size(60, 20);
             this.NUpD_LocalLicense.TabIndex = 4;
             this.NUpD_LocalLicense.ValueChanged += new System.EventHandler(this.NUpD_LocalLicense_ValueChanged);
             // 
@@ -146,10 +141,9 @@
             // 
             this.CB_UnlockedTrialware.AutoSize = true;
             this.CB_UnlockedTrialware.CheckAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.CB_UnlockedTrialware.Location = new System.Drawing.Point(4, 154);
-            this.CB_UnlockedTrialware.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.CB_UnlockedTrialware.Location = new System.Drawing.Point(2, 80);
             this.CB_UnlockedTrialware.Name = "CB_UnlockedTrialware";
-            this.CB_UnlockedTrialware.Size = new System.Drawing.Size(326, 29);
+            this.CB_UnlockedTrialware.Size = new System.Drawing.Size(166, 17);
             this.CB_UnlockedTrialware.TabIndex = 3;
             this.CB_UnlockedTrialware.Text = "Unlocked Trialware license:   ";
             this.CB_UnlockedTrialware.UseVisualStyleBackColor = true;
@@ -158,40 +152,36 @@
             // L_HLNetworkLicense
             // 
             this.L_HLNetworkLicense.AutoSize = true;
-            this.L_HLNetworkLicense.Location = new System.Drawing.Point(6, 110);
-            this.L_HLNetworkLicense.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
+            this.L_HLNetworkLicense.Location = new System.Drawing.Point(3, 57);
             this.L_HLNetworkLicense.Name = "L_HLNetworkLicense";
-            this.L_HLNetworkLicense.Size = new System.Drawing.Size(203, 25);
+            this.L_HLNetworkLicense.Size = new System.Drawing.Size(103, 13);
             this.L_HLNetworkLicense.TabIndex = 2;
             this.L_HLNetworkLicense.Text = "HL Network license:";
             // 
             // L_SLNetworkLicense
             // 
             this.L_SLNetworkLicense.AutoSize = true;
-            this.L_SLNetworkLicense.Location = new System.Drawing.Point(6, 60);
-            this.L_SLNetworkLicense.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
+            this.L_SLNetworkLicense.Location = new System.Drawing.Point(3, 31);
             this.L_SLNetworkLicense.Name = "L_SLNetworkLicense";
-            this.L_SLNetworkLicense.Size = new System.Drawing.Size(202, 25);
+            this.L_SLNetworkLicense.Size = new System.Drawing.Size(102, 13);
             this.L_SLNetworkLicense.TabIndex = 1;
             this.L_SLNetworkLicense.Text = "SL Network license:";
             // 
             // L_LocalLicense
             // 
             this.L_LocalLicense.AutoSize = true;
-            this.L_LocalLicense.Location = new System.Drawing.Point(6, 10);
-            this.L_LocalLicense.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
+            this.L_LocalLicense.Location = new System.Drawing.Point(3, 5);
             this.L_LocalLicense.Name = "L_LocalLicense";
-            this.L_LocalLicense.Size = new System.Drawing.Size(150, 25);
+            this.L_LocalLicense.Size = new System.Drawing.Size(75, 13);
             this.L_LocalLicense.TabIndex = 0;
             this.L_LocalLicense.Text = "Local license: ";
             // 
             // RB_Custom
             // 
             this.RB_Custom.AutoSize = true;
-            this.RB_Custom.Location = new System.Drawing.Point(60, 171);
-            this.RB_Custom.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.RB_Custom.Location = new System.Drawing.Point(30, 89);
             this.RB_Custom.Name = "RB_Custom";
-            this.RB_Custom.Size = new System.Drawing.Size(116, 29);
+            this.RB_Custom.Size = new System.Drawing.Size(60, 17);
             this.RB_Custom.TabIndex = 7;
             this.RB_Custom.Text = "Custom";
             this.RB_Custom.UseVisualStyleBackColor = true;
@@ -200,10 +190,9 @@
             // RB_DefaultHL
             // 
             this.RB_DefaultHL.AutoSize = true;
-            this.RB_DefaultHL.Location = new System.Drawing.Point(60, 127);
-            this.RB_DefaultHL.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.RB_DefaultHL.Location = new System.Drawing.Point(30, 66);
             this.RB_DefaultHL.Name = "RB_DefaultHL";
-            this.RB_DefaultHL.Size = new System.Drawing.Size(366, 29);
+            this.RB_DefaultHL.Size = new System.Drawing.Size(185, 17);
             this.RB_DefaultHL.TabIndex = 6;
             this.RB_DefaultHL.Text = "Default HL ({zz} network licenses)";
             this.RB_DefaultHL.UseVisualStyleBackColor = true;
@@ -212,10 +201,9 @@
             // RB_DefaultSL
             // 
             this.RB_DefaultSL.AutoSize = true;
-            this.RB_DefaultSL.Location = new System.Drawing.Point(60, 83);
-            this.RB_DefaultSL.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.RB_DefaultSL.Location = new System.Drawing.Point(30, 43);
             this.RB_DefaultSL.Name = "RB_DefaultSL";
-            this.RB_DefaultSL.Size = new System.Drawing.Size(458, 29);
+            this.RB_DefaultSL.Size = new System.Drawing.Size(232, 17);
             this.RB_DefaultSL.TabIndex = 5;
             this.RB_DefaultSL.Text = "Default SL ({xx} local/{yy} network licenses)";
             this.RB_DefaultSL.UseVisualStyleBackColor = true;
@@ -225,10 +213,9 @@
             // 
             this.RB_DefaultMix.AutoSize = true;
             this.RB_DefaultMix.Checked = true;
-            this.RB_DefaultMix.Location = new System.Drawing.Point(60, 38);
-            this.RB_DefaultMix.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.RB_DefaultMix.Location = new System.Drawing.Point(30, 20);
             this.RB_DefaultMix.Name = "RB_DefaultMix";
-            this.RB_DefaultMix.Size = new System.Drawing.Size(516, 29);
+            this.RB_DefaultMix.Size = new System.Drawing.Size(260, 17);
             this.RB_DefaultMix.TabIndex = 4;
             this.RB_DefaultMix.TabStop = true;
             this.RB_DefaultMix.Text = "Default Mix (SL: {xx}/{yy} + HL: {zz} + Provisional)";
@@ -238,32 +225,29 @@
             // L_CleanSettings
             // 
             this.L_CleanSettings.AutoSize = true;
-            this.L_CleanSettings.Location = new System.Drawing.Point(24, 6);
-            this.L_CleanSettings.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
+            this.L_CleanSettings.Location = new System.Drawing.Point(12, 3);
             this.L_CleanSettings.Name = "L_CleanSettings";
-            this.L_CleanSettings.Size = new System.Drawing.Size(155, 25);
+            this.L_CleanSettings.Size = new System.Drawing.Size(76, 13);
             this.L_CleanSettings.TabIndex = 3;
             this.L_CleanSettings.Text = "Clean settings:";
             // 
             // L_Logs
             // 
             this.L_Logs.AutoSize = true;
-            this.L_Logs.Location = new System.Drawing.Point(24, 217);
-            this.L_Logs.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
+            this.L_Logs.Location = new System.Drawing.Point(12, 113);
             this.L_Logs.Name = "L_Logs";
-            this.L_Logs.Size = new System.Drawing.Size(65, 25);
+            this.L_Logs.Size = new System.Drawing.Size(33, 13);
             this.L_Logs.TabIndex = 2;
             this.L_Logs.Text = "Logs:";
             // 
             // TB_Logs
             // 
-            this.TB_Logs.Location = new System.Drawing.Point(24, 248);
-            this.TB_Logs.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.TB_Logs.Location = new System.Drawing.Point(12, 129);
             this.TB_Logs.Multiline = true;
             this.TB_Logs.Name = "TB_Logs";
             this.TB_Logs.ReadOnly = true;
             this.TB_Logs.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
-            this.TB_Logs.Size = new System.Drawing.Size(916, 112);
+            this.TB_Logs.Size = new System.Drawing.Size(460, 60);
             this.TB_Logs.TabIndex = 1;
             this.TB_Logs.TextChanged += new System.EventHandler(this.TB_Logs_TextChanged);
             // 
@@ -277,19 +261,17 @@
             this.P_Bottom.Controls.Add(this.B_Start);
             this.P_Bottom.Controls.Add(this.TB_PathToVendorCode);
             this.P_Bottom.Controls.Add(this.L_VendorCode);
-            this.P_Bottom.Location = new System.Drawing.Point(0, 375);
-            this.P_Bottom.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.P_Bottom.Location = new System.Drawing.Point(0, 195);
             this.P_Bottom.Name = "P_Bottom";
-            this.P_Bottom.Size = new System.Drawing.Size(980, 154);
+            this.P_Bottom.Size = new System.Drawing.Size(490, 80);
             this.P_Bottom.TabIndex = 0;
             // 
             // B_BrowsePathToHLC2V
             // 
             this.B_BrowsePathToHLC2V.BackColor = System.Drawing.Color.Red;
-            this.B_BrowsePathToHLC2V.Location = new System.Drawing.Point(720, 83);
-            this.B_BrowsePathToHLC2V.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.B_BrowsePathToHLC2V.Location = new System.Drawing.Point(360, 43);
             this.B_BrowsePathToHLC2V.Name = "B_BrowsePathToHLC2V";
-            this.B_BrowsePathToHLC2V.Size = new System.Drawing.Size(60, 42);
+            this.B_BrowsePathToHLC2V.Size = new System.Drawing.Size(30, 22);
             this.B_BrowsePathToHLC2V.TabIndex = 6;
             this.B_BrowsePathToHLC2V.Text = "...";
             this.TT_WhyNeedPathToHLC2V.SetToolTip(this.B_BrowsePathToHLC2V, resources.GetString("B_BrowsePathToHLC2V.ToolTip"));
@@ -298,21 +280,19 @@
             // 
             // TB_PathToHLC2V
             // 
-            this.TB_PathToHLC2V.Location = new System.Drawing.Point(240, 85);
-            this.TB_PathToHLC2V.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.TB_PathToHLC2V.Location = new System.Drawing.Point(120, 44);
             this.TB_PathToHLC2V.Name = "TB_PathToHLC2V";
             this.TB_PathToHLC2V.ReadOnly = true;
-            this.TB_PathToHLC2V.Size = new System.Drawing.Size(476, 31);
+            this.TB_PathToHLC2V.Size = new System.Drawing.Size(240, 20);
             this.TB_PathToHLC2V.TabIndex = 5;
             // 
             // L_HLC2V
             // 
             this.L_HLC2V.AutoSize = true;
             this.L_HLC2V.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.L_HLC2V.Location = new System.Drawing.Point(24, 90);
-            this.L_HLC2V.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
+            this.L_HLC2V.Location = new System.Drawing.Point(12, 47);
             this.L_HLC2V.Name = "L_HLC2V";
-            this.L_HLC2V.Size = new System.Drawing.Size(208, 25);
+            this.L_HLC2V.Size = new System.Drawing.Size(102, 13);
             this.L_HLC2V.TabIndex = 4;
             this.L_HLC2V.Text = "HL (Driverless) C2V:";
             // 
@@ -321,10 +301,9 @@
             this.B_BrowsePathToVendorCode.BackColor = System.Drawing.Color.Red;
             this.B_BrowsePathToVendorCode.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.B_BrowsePathToVendorCode.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.B_BrowsePathToVendorCode.Location = new System.Drawing.Point(720, 15);
-            this.B_BrowsePathToVendorCode.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.B_BrowsePathToVendorCode.Location = new System.Drawing.Point(360, 8);
             this.B_BrowsePathToVendorCode.Name = "B_BrowsePathToVendorCode";
-            this.B_BrowsePathToVendorCode.Size = new System.Drawing.Size(60, 42);
+            this.B_BrowsePathToVendorCode.Size = new System.Drawing.Size(30, 22);
             this.B_BrowsePathToVendorCode.TabIndex = 3;
             this.B_BrowsePathToVendorCode.Text = "...";
             this.B_BrowsePathToVendorCode.UseVisualStyleBackColor = false;
@@ -333,10 +312,9 @@
             // B_Start
             // 
             this.B_Start.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.B_Start.Location = new System.Drawing.Point(794, 15);
-            this.B_Start.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.B_Start.Location = new System.Drawing.Point(397, 8);
             this.B_Start.Name = "B_Start";
-            this.B_Start.Size = new System.Drawing.Size(150, 42);
+            this.B_Start.Size = new System.Drawing.Size(75, 22);
             this.B_Start.TabIndex = 2;
             this.B_Start.Text = "Start";
             this.B_Start.UseVisualStyleBackColor = true;
@@ -344,21 +322,19 @@
             // 
             // TB_PathToVendorCode
             // 
-            this.TB_PathToVendorCode.Location = new System.Drawing.Point(180, 17);
-            this.TB_PathToVendorCode.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.TB_PathToVendorCode.Location = new System.Drawing.Point(90, 9);
             this.TB_PathToVendorCode.Name = "TB_PathToVendorCode";
             this.TB_PathToVendorCode.ReadOnly = true;
-            this.TB_PathToVendorCode.Size = new System.Drawing.Size(536, 31);
+            this.TB_PathToVendorCode.Size = new System.Drawing.Size(270, 20);
             this.TB_PathToVendorCode.TabIndex = 1;
             // 
             // L_VendorCode
             // 
             this.L_VendorCode.AutoSize = true;
             this.L_VendorCode.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.L_VendorCode.Location = new System.Drawing.Point(24, 23);
-            this.L_VendorCode.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
+            this.L_VendorCode.Location = new System.Drawing.Point(12, 12);
             this.L_VendorCode.Name = "L_VendorCode";
-            this.L_VendorCode.Size = new System.Drawing.Size(144, 25);
+            this.L_VendorCode.Size = new System.Drawing.Size(72, 13);
             this.L_VendorCode.TabIndex = 0;
             this.L_VendorCode.Text = "Vendor Code:";
             // 
@@ -374,24 +350,22 @@
             this.PB_Logo.BackColor = System.Drawing.Color.Crimson;
             this.PB_Logo.BackgroundImage = global::MK_Cleaner.Properties.Resources.MK_Cleaner_Logo;
             this.PB_Logo.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.PB_Logo.Location = new System.Drawing.Point(-30, 0);
-            this.PB_Logo.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.PB_Logo.Location = new System.Drawing.Point(-18, 0);
             this.PB_Logo.Name = "PB_Logo";
-            this.PB_Logo.Size = new System.Drawing.Size(1020, 144);
+            this.PB_Logo.Size = new System.Drawing.Size(510, 75);
             this.PB_Logo.TabIndex = 0;
             this.PB_Logo.TabStop = false;
             // 
             // Form_Main
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 25F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(954, 619);
+            this.ClientSize = new System.Drawing.Size(482, 339);
             this.Controls.Add(this.P_Main);
             this.Controls.Add(this.PB_Logo);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
-            this.MaximumSize = new System.Drawing.Size(980, 690);
-            this.MinimumSize = new System.Drawing.Size(980, 690);
+            this.MaximumSize = new System.Drawing.Size(498, 378);
+            this.MinimumSize = new System.Drawing.Size(498, 378);
             this.Name = "Form_Main";
             this.Text = "MK Cleaner {vv}";
             this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.Form_Main_FormClosed);

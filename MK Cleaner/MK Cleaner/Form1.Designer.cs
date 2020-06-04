@@ -55,14 +55,12 @@
             this.TB_PathToVendorCode = new System.Windows.Forms.TextBox();
             this.L_VendorCode = new System.Windows.Forms.Label();
             this.TT_WhyNeedPathToHLC2V = new System.Windows.Forms.ToolTip(this.components);
-            this.PB_Logo = new System.Windows.Forms.PictureBox();
             this.P_Main.SuspendLayout();
             this.P_CustomSettings.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.NUpD_HLNetworkLicense)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.NUpD_SLNetworkLicense)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.NUpD_LocalLicense)).BeginInit();
             this.P_Bottom.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.PB_Logo)).BeginInit();
             this.SuspendLayout();
             // 
             // P_Main
@@ -77,7 +75,7 @@
             this.P_Main.Controls.Add(this.L_Logs);
             this.P_Main.Controls.Add(this.TB_Logs);
             this.P_Main.Controls.Add(this.P_Bottom);
-            this.P_Main.Location = new System.Drawing.Point(0, 75);
+            this.P_Main.Location = new System.Drawing.Point(0, 0);
             this.P_Main.Name = "P_Main";
             this.P_Main.Size = new System.Drawing.Size(490, 290);
             this.P_Main.TabIndex = 1;
@@ -345,27 +343,15 @@
             this.TT_WhyNeedPathToHLC2V.ReshowDelay = 100;
             this.TT_WhyNeedPathToHLC2V.ToolTipTitle = "Why we need to provide HL C2V?";
             // 
-            // PB_Logo
-            // 
-            this.PB_Logo.BackColor = System.Drawing.Color.Crimson;
-            this.PB_Logo.BackgroundImage = global::MK_Cleaner.Properties.Resources.MK_Cleaner_Logo;
-            this.PB_Logo.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.PB_Logo.Location = new System.Drawing.Point(-18, 0);
-            this.PB_Logo.Name = "PB_Logo";
-            this.PB_Logo.Size = new System.Drawing.Size(510, 75);
-            this.PB_Logo.TabIndex = 0;
-            this.PB_Logo.TabStop = false;
-            // 
             // Form_Main
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(482, 339);
+            this.ClientSize = new System.Drawing.Size(482, 264);
             this.Controls.Add(this.P_Main);
-            this.Controls.Add(this.PB_Logo);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.MaximumSize = new System.Drawing.Size(498, 378);
-            this.MinimumSize = new System.Drawing.Size(498, 378);
+            this.MaximumSize = new System.Drawing.Size(498, 303);
+            this.MinimumSize = new System.Drawing.Size(498, 303);
             this.Name = "Form_Main";
             this.Text = "MK Cleaner {vv}";
             this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.Form_Main_FormClosed);
@@ -379,14 +365,11 @@
             ((System.ComponentModel.ISupportInitialize)(this.NUpD_LocalLicense)).EndInit();
             this.P_Bottom.ResumeLayout(false);
             this.P_Bottom.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.PB_Logo)).EndInit();
             this.ResumeLayout(false);
 
         }
 
         #endregion
-
-        private System.Windows.Forms.PictureBox PB_Logo;
         private System.Windows.Forms.Panel P_Main;
         private System.Windows.Forms.Panel P_CustomSettings;
         private System.Windows.Forms.RadioButton RB_Custom;

@@ -121,7 +121,4 @@
   <data name="MK_Cleaner_Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Images\MK_Cleaner_Icon.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="MK_Cleaner_Logo" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\MK_Cleaner_Logo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
 </root>

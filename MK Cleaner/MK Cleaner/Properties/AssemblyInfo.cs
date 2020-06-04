@@ -9,7 +9,7 @@ using System.Resources;
 [assembly: AssemblyTitle("MK Cleaner")]
 [assembly: AssemblyDescription("Powered by Yury Goryachev")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("Thales Group (ex Gemalto)")]
+[assembly: AssemblyCompany("RSK inc")]
 [assembly: AssemblyProduct("MK Cleaner")]
 [assembly: AssemblyCopyright("Copyright ©  2020")]
 [assembly: AssemblyTrademark("Powered by Yury Goryachev")]

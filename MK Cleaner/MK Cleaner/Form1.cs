@@ -123,9 +123,9 @@ namespace MK_Cleaner
                 if (NetworkActivationHL == 0)
                 {
                     P_Bottom.Location = new Point(0, 230);
-                    TB_Logs.Size = new Size(460, 100);
-                    TB_Logs.MinimumSize = new Size(460, 100);
-                    TB_Logs.MaximumSize = new Size(460, 100);
+                    TB_Logs.Size = new Size(460, 95);
+                    TB_Logs.MinimumSize = new Size(460, 95);
+                    TB_Logs.MaximumSize = new Size(460, 95);
 
                     if (VendorCode != "")
                     {
@@ -173,9 +173,9 @@ namespace MK_Cleaner
 
             P_CustomSettings.Visible = false;
             P_Bottom.Location = new Point(0, 230);
-            TB_Logs.Size = new Size(460, 100);
-            TB_Logs.MinimumSize = new Size(460, 100);
-            TB_Logs.MaximumSize = new Size(460, 100);
+            TB_Logs.Size = new Size(460, 95);
+            TB_Logs.MinimumSize = new Size(460, 95);
+            TB_Logs.MaximumSize = new Size(460, 95);
             LocalActivation = defaultNumberOfLic;
             NetworkActivationSL = defaultNumberOfLic;
             NetworkActivationHL = 0;
@@ -225,9 +225,9 @@ namespace MK_Cleaner
 
             P_CustomSettings.Visible = true;
             P_Bottom.Location = new Point(0, 230);
-            TB_Logs.Size = new Size(460, 100);
-            TB_Logs.MinimumSize = new Size(460, 100);
-            TB_Logs.MaximumSize = new Size(460, 100);
+            TB_Logs.Size = new Size(460, 95);
+            TB_Logs.MinimumSize = new Size(460, 95);
+            TB_Logs.MaximumSize = new Size(460, 95);
             LocalActivation = Convert.ToInt32(NUpD_LocalLicense.Value);
             NetworkActivationSL = Convert.ToInt32(NUpD_SLNetworkLicense.Value);
             NetworkActivationHL = Convert.ToInt32(NUpD_HLNetworkLicense.Value);
